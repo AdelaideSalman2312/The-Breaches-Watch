@@ -56,7 +56,7 @@ A.8.24 — Use of cryptography-This is the genuinely interesting, counterintuiti
 A.5.36 — Compliance with policies, rules, and standards for information security -This ensures security policies are being put to practice not just documented .SolarWinds'  together with its CISO later faced SEC fraud charges — for allegedly overstating its cybersecurity posture while internally aware of specific gaps — is direct, formal, legally-established evidence that A.5.36's verification function had failed at an organizational level, not just a technical one.
 ***DISCOVERY DIAGNOSTIC***
 A.5.21 and A.8.25 are both upstream, preventive controls, while A.8.16 is a downstream, detective control. SUNBURST succeeded because the preventive layer (supply chain and SDLC integrity) failed silently, and the detective layer (monitoring) was specifically engineered around — meaning the failure wasn't one control breaking, it was the entire preventive-to-detective chain failing in sequence, each layer's failure enabling the next one to go unnoticed.
-
-
+#OUTCOME
+SolarWinds' stock price fell sharply following disclosure; the company faced SEC scrutiny and shareholder litigation. In October 2023, the SEC brought fraud charges against SolarWinds and its CISO specifically for allegedly overstating the company's cybersecurity practices and knowingly failing to disclose known risks prior to the attack — a significant, precedent-setting move holding a named individual security executive personally liable, not just the corporate entity. Federal agencies spent months on remediation; the true scope of data actually exfiltrated from the highest-value targets (multiple US federal agencies) remains only partially disclosed publicly.
 
 
