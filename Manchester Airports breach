@@ -46,6 +46,22 @@ rests with the controller — this is not something a data subject or regulator 
 Until MAG produces that evidence, Article 7 compliance cannot be assumed, and the multi-year 
 retention of that same data (Article 5(1)(c), 5(1)(e)) suggests the original purpose limitation 
 was not being actively enforced regardless of how consent was initially framed.
+#Outcome
+Compromised Customer Information: An unauthorized third party obtained personal data from car park,
+lounge, and Fast Track bookings, as well as in-airport Wi-Fi sign-ups. The stolen data included email
+addresses, phone numbers, vehicle registrations, and postcodes across Manchester, Stansted, and East
+Midlands airports. Financial Data Kept Secure: No financial information, bank details, or credit card
+numbers were exposed, as the accessed systems do not store payment details. No Operational Fallout:
+All airport operations, flight schedules, and security protocols remained fully active and unaffected.
+Official Investigations Launched: The airport group began working closely with the Information Commissioner's
+Office (ICO)and the National Crime Agency (NCA) to investigate the full scope of the breach and secure
+their systems. Security Controversy:Cyber security experts, revealed that the breach likely stemmed from
+API keys being left exposed in client-side JavaScript for four years, allowing access totheir database
+via the marketing platform Iterable. MAG disputed this "no hacking required" claim, maintaining that they
+were victims of a sophisticated cyberattack. 
+#Pattern tags 
+ Tags -[-Ransowware , vulnerable API keys ]
+
 
 
 
