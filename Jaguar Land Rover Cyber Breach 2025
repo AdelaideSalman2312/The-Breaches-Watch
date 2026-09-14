@@ -1,0 +1,15 @@
+Tags [- infostealer malware ,-industrial manufacturing ,-energy ,logistics,-legacy credentials ,-date leakage
+-HELLCAT playbook , Supplychain attack ,-thirdparty backdoor , -ransomware] 
+#Summary
+This is a background check on the JLR breach because this is a complicated attack.
+JLR was breached by HELLCAT Ransomware Group using the Infostealer Playbook(we will look into their playbook really soon)
+The HELLCAT ransomware group claimed responsibility for a major data breach against Jaguar Land Rover (JLR), 
+in which gigabytes of sensitive information were leaked, including proprietary documents, source code, and
+employee and partner data. The attack, attributed to a threat actor known as “Rey” [identified by breach 
+tracking platforms as an active member of HELLCAT] on a dark forum, on March 10, 2025, posted roughly 700 
+internal JLR documents that were compromised. The breach was enabled through stolen Jira 
+(Jira by Atlassian is a software tool used for project management, issue tracking, and workflow automation).credentials
+harvested via Infostealer malware, a known hallmark of HELLCAT’s operations. The exposed data includes
+development logs, tracking information, source code, and a large employee dataset with usernames, email 
+addresses, display names, and time zones.The presence of verified employee information from JLR’s global workforce
+raises significant concerns about identity theft and targeted phishing campaigns.
