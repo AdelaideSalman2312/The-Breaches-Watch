@@ -19,6 +19,12 @@ remained undetected for 3 months.
 
 # Technical Failure
 <img width="1192" height="1015" alt="image" src="https://github.com/user-attachments/assets/842c5872-2070-4b55-a564-11efb70411e1" />
+   # Step One
+The attack began with human manipulation. The attackers targeted internal IT employees or third party contractors using vishing (voice phishing ) or SIM swapping . Then by impersonating internal helpdesk personnel , they tricked employees into handing over their corporate log in credentials and bypass Multi-Factor authentication prompts 
+   
+    `# Comment : even Multi factor authentication has a ceiling and the ceiling is social engineering , attackers learnt that you don't need to break the door through brute force you just need to ask the person inside to open the door.`
+
+    
 
 
 
