@@ -44,6 +44,19 @@ The "Brain" Stopped: The automated logistics software that tells robots which pa
 Line Freeze: Factories like Solihull, Wolverhampton, and Halewood lost communication with their parts inventories, forcing physical production lines to grind to a halt.
 Supply Chain Blackout: The blackout severed connections with JLR's logistics partners, leaving external tier-suppliers with no way to receive orders or track electronic shipping manifests.
 
+ # Attack Vectors
+ **Attribution** - The collective calling itself Scattered Lapsus$ Hunters (a coalition linked to Scattered Spider, Lapsus$, and ShinyHunters) claimed responsibility.
+ 
+ **Entry Method** -  Security researchers believe attackers used social engineering and credential theft, alongside exploiting an unpatched vulnerability in third-party software like SAP NetWeaver.
+ 
+ **Information Technology and Operational Technology Flaws** -  The high degree of connectivity between centralized IT networks and operational technology (OT) smart factories allowed the initial breach to propagate quickly, freezing production lines at major UK facilities like Solihull, Wolverhampton, and Halewood.
+
+ **Supply Chain Fragility**-  Core databases for enterprise resource planning, parts ordering, and logistics managed alongside partners like TCS were crippled, leaving tier suppliers unable to track or ship components electronically.
+
+ #  Impact and Resolution
+ **Financial Loss** -  The disruption resulted in hundreds of millions in direct losses and hundreds of millions more in cyber-related costs, making it one of the costliest incidents for the UK automotive sector with broader economic impacts estimated in the billions.
+ **Operational Recovery** -  JLR gradually restored baseline operations after weeks of downtime, returning production levels back to normal later in the autumn of 2025.
+
 
 
 
