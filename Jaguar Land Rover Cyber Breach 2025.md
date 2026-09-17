@@ -55,6 +55,7 @@ Supply Chain Blackout: The blackout severed connections with JLR's logistics par
 
  #  Impact and Resolution
  **Financial Loss** -  The disruption resulted in hundreds of millions in direct losses and hundreds of millions more in cyber-related costs, making it one of the costliest incidents for the UK automotive sector with broader economic impacts estimated in the billions.
+ 
  **Operational Recovery** -  JLR gradually restored baseline operations after weeks of downtime, returning production levels back to normal later in the autumn of 2025.
 
 
