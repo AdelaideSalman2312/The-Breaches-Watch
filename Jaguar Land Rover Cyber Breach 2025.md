@@ -19,13 +19,32 @@ remained undetected for 3 months.
 
 # Technical Failure
 <img width="1192" height="1015" alt="image" src="https://github.com/user-attachments/assets/842c5872-2070-4b55-a564-11efb70411e1" />
-   ## Step One
-   --
+--
+  
+   
+   ## Step One: Initial Access (Social Engineering & Credential Theft)
+   
 The attack began with human manipulation. The attackers targeted internal IT employees or third party contractors using vishing (voice phishing ) or SIM swapping . Then by impersonating internal helpdesk personnel , they tricked employees into handing over their corporate log in credentials and bypass Multi-Factor authentication prompts 
    
     `# Comment : even Multi factor authentication has a ceiling and the ceiling is social engineering , attackers learnt that you don't need to break the door through brute force you just need to ask the person inside to open the door.`
 
-    
+# Step 2:Vulnerability Exploitation and Entry
+Once inside the perimeter with credentials , the attackers actively scanned the internal network for unpatched weaknesses. They discovered and exploited a critical flaw in JLR's enterprise infrastructure - specifically targeting enterprise software like SAP NetWeaver. This allowed them to upgrade their access from standard user privileges to deep , administrative permissions.
+
+# Step 3:Network Lateral Movement
+Because JLR's corporate IT systems were deeply integrated with its manufacturing operations , the attackers easily moved sideways (laterally) through the network. They jumped from administrative office networks straight into the Operational Technology (OT) environments. This area contains the internal databases, automated manufacturing scripts, and server infrastructure that keep factories running.
+
+# Step 4: System Encryption and Lockout
+Now the attackers have adminstrative control over core servers , therefore they deployed ransomware.They systematically encrypted vital enterprise resource planning (ERP) systems, part-tracking databases, and assembly line management platforms. They also took down critical authentication servers, locking employees out of their computers and specialized devices.
+
+# Step 5 :The Cascading Technical Failure
+Because modern automotive manufacturing uses a "Just-In-Time" system—where parts arrive at the factory exactly when they are needed—the digital lockout caused immediate physical shutdowns:
+# The conveyor belt infrastructure had a ceiling
+The "Brain" Stopped: The automated logistics software that tells robots which parts to pull went entirely dark.
+Line Freeze: Factories like Solihull, Wolverhampton, and Halewood lost communication with their parts inventories, forcing physical production lines to grind to a halt.
+Supply Chain Blackout: The blackout severed connections with JLR's logistics partners, leaving external tier-suppliers with no way to receive orders or track electronic shipping manifests.
+
+
 
 
 
@@ -34,9 +53,13 @@ The attack began with human manipulation. The attackers targeted internal IT emp
 # Detection time
 August 31/2025 - The initial breach at JLR was detected , which immediately triggered an emergency IT shutdown and a
 halt to vehicle production.
+
 September 1–2, 2025: JLR publicly discloses the cybersecurity issue, pauses manufacturing across its UK plants
 (including Solihull, Wolverhampton, and Halewood), and sends staff home.
+
 Late September to October 2025: A phased restart begins following extensive supply chain and operational disruptions.
 Early 2026: Full operational recovery and supply chain stabilization are achieved.
+
+# 
 
 
