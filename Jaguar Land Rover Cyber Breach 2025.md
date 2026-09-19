@@ -52,6 +52,40 @@ Supply Chain Blackout: The blackout severed connections with JLR's logistics par
  **Information Technology and Operational Technology Flaws** -  The high degree of connectivity between centralized IT networks and operational technology (OT) smart factories allowed the initial breach to propagate quickly, freezing production lines at major UK facilities like Solihull, Wolverhampton, and Halewood.
 
  **Supply Chain Fragility**-  Core databases for enterprise resource planning, parts ordering, and logistics managed alongside partners like TCS were crippled, leaving tier suppliers unable to track or ship components electronically.
+ 
+ # Governance Failures
+ --
+ **GDPR**
+ --
+ Article 5(1)(f) - Integrity and Confidentiality Failure to ensure appropriate security of personal data against unauthorized processing or accidental loss.
+
+Article 24 - Responsibility of the ControllerLack of effective measures and governance controls to demonstrate compliance for third-party vendors.
+
+Article 32 - Security of ProcessingInadequate technical and organizational measures, such as failing to mandate multi-factor authentication (MFA) for external contractors.
+
+--
+
+
+**ISO 27001**
+
+--
+Clause 5 - Leadership
+Top management failed to demonstrate leadership and commitment with respect to the Information Security Management System (ISMS).
+
+Clause 6.1.2 Information Security Risk Assessment
+Failure to properly assess risks tied to legacy access and third-party supplier lifecycles.
+
+Clause A.15.1 (Annex A) 
+Information Security in Supplier RelationshipsInadequate oversight, monitoring, and rapid de-provisioning of contractor and vendor accounts
+
+
+
+
+
+
+ 
+ 
+ 
 
  #  Impact and Resolution
  **Financial Loss** -  The disruption resulted in hundreds of millions in direct losses and hundreds of millions more in cyber-related costs, making it one of the costliest incidents for the UK automotive sector with broader economic impacts estimated in the billions.
