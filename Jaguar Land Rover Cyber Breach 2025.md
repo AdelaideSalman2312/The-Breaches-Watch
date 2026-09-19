@@ -1,3 +1,9 @@
+**Date of Incident** :
+
+--
+31st August - The IT officers noticed initial irregularities in the system and announced on 2nd September
+
+--
 Tags [- infostealer malware ,-industrial manufacturing ,-energy ,logistics,-legacy credentials ,-date leakage
 -HELLCAT playbook , Supplychain attack ,-thirdparty backdoor , -ransomware] 
 # Summary
