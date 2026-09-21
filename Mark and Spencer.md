@@ -8,3 +8,51 @@ The attack was a chain of exploitation of loose end or vulnerable points.
 Attackers impersonated an employee , got a third party service desk to reset a password , then took the NTDS.dit file from Active Directory and deployed DragonForce .Each link had a control that would have broken it : caller verification , a second approver for resets , tiering of privileged accounts , and monitoring for NTDS.dit access(A.8.5 ,A.8.2 ,A.8.16)
 
 
+**Technical Failure**
+1.**Human Layer Failure** 
+
+--
+Threat actors linked to the Scattered Spider group impersonated an M&S employee and tricked a third party contractor into resetting access credentials.
+
+
+--
+2.**Weak Vendor Governance**
+
+--
+Excessive implicit trust and weak verification controls at the third-party help desk allowed initial entry without a direct technical exploit
+
+--
+3.**Segmentation**
+Norman - M&S Chairperson told MPs that M&s has many legacy systems that make segmentation difficult and in case of an attack like that they experienced in April 2025 , the minimal segmentation enables easy lateral movement.Good — let's build the actual copy now, ready to paste in directly, section by section.The lack of robust microsegmentation allowed the DragonForce ransomware to spread broadly, impacting internal logistics alongside customer systems
+
+.
+
+--
+
+4.**Lateral Movement**
+Attackers leveraged the compromised credentials to escalate privileges and move through the enterprise network due to a lack of strictly identity -based access.
+
+**Dwell time and Detection time**
+
+--
+**Initial Access**
+Attackers gained unauthorized entry into the network via a compromised third-party vendor on April 17,2025(through foundational reconnaissance and early credential extraction , such as Active Directory database access - the attack 
+reportedly began as early as February 2025)
+
+--
+**Detection Time**
+M&S leadership and security teams identified that a breach had occurred on the late afternoon of April 19,2025 - roughly two days after the active operational infiltration occurred.
+
+--
+**Total Dwell Time**
+The attackers maintained undetected or uncontained access moving laterally through the network for roughly two months(from February through April 24,2025) before the full ransomware payload and operational disruption took effect.
+
+**Response**
+
+
+
+
+
+
+
+
