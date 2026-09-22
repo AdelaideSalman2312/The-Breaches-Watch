@@ -54,6 +54,27 @@ Mark and Spencer retail shop sent emails to their customers after the breach on 
 Unfortunately, the nature of the incident means that some personal customer data has been taken, but there is no evidence that it has been shared. The personal data could include contact details, date of birth and online order history. However, importantly, the data does not include useable card or payment details, and it also does not include any account passwords."
 
 
+ **The Governance Failure**
+ **UK GDPR**
+ **Article 32 – Security of Processing** :
+  This is the primary article breached. It mandates that organizations implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk. The lack of strict vendor enforcement, omission of MFA on critical access paths, and vulnerabilities to social engineering constitute a failure under Article 32.
+
+  **Article 28 – Processor Accountability**:
+M&S was required to ensure that its third-party providers offered sufficient guarantees to implement appropriate technical measures so the processing met GDPR standards. Relying on a vendor that allowed helpdesk exploitation points to a breakdown in vendor assessment under Article 28
+
+ **Article 5(1)(f) – Integrity and Confidentiality Principle**: 
+This fundamental principle dictates that personal data must be processed in a manner that ensures appropriate security against unauthorized or unlawful processing, accidental loss, destruction, or damage.
+
+| Vulnerability Exposed in Breach | Relevant ISO 27001:2022 Control | Explanation |
+|---|---|---|
+| **Third-Party Vendor Exposure** | **Control A.5.19 to A.5.22** — Information security in supplier relationships | Organizations must monitor and review supplier service delivery. M&S failed to govern the security baseline of its external IT helpdesk. |
+| **Social Engineering & Credential Theft** | **Control A.7.4** — Physical/logical security awareness & **Control A.5.14** — Access control | Attackers easily manipulated helpdesk personnel. This highlights inadequate technical defenses around identity validation and insufficient human-centric security awareness. |
+| **Disabled Multi-Factor Authentication** | **Control A.8.5** — Secure authentication | Disabling MFA for remote or privileged entry pathways is a direct violation of standardized identity and access management practices. |
+| **Prolonged Operational Downtime** | **Control A.5.29 to A.5.30** — Information security during business continuity | M&S's digital infrastructure took roughly 7 weeks to fully recover, pointing to gaps in operational resilience and business continuity mapping. |
+
+
+
+
 
 
 
