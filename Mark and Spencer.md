@@ -48,8 +48,10 @@ M&S leadership and security teams identified that a breach had occurred on the l
 The attackers maintained undetected or uncontained access moving laterally through the network for roughly two months(from February through April 24,2025) before the full ransomware payload and operational disruption took effect.
 
 **Response**
+Mark and Spencer retail shop sent emails to their customers after the breach on the 19th of April. The contents of the email :
+"To proactively manage the incident, we immediately took steps to protect our systems and engaged leading cyber security experts. We also reported the incident to relevant government authorities and law enforcement, who we continue to work closely with.
 
-
+Unfortunately, the nature of the incident means that some personal customer data has been taken, but there is no evidence that it has been shared. The personal data could include contact details, date of birth and online order history. However, importantly, the data does not include useable card or payment details, and it also does not include any account passwords."
 
 
 
