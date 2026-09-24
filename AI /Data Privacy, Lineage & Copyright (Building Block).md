@@ -1,11 +1,15 @@
 **Overview  & Scope** :
+
 Focuses on the data set layer : data curation , GDPR  compliance , algorithmic unlearning ,
 data provenance ,and copyright protections for training data.
+
 **Core Research Thesis**:
+
 Algorithmic unlearning and dataset hygiene present key technical and legal mechanism to 
 guarantee privacy and copyright compliance without necessitating total model retraining.
 
-***CASE 1***
+***CASE 1**
+
 # Tools for Humanity (The Corporation behind World Coin ) - The Company that was scanning Kenyan People orbs for 7700ksh.
 
 Worldcoin collected iris scans from citizens in Kenya primarily during July and August 2023.This raised significant ethical concerns particularly in Kenya — a developing country , where  40 % of its citizens ( an average of twenty million of its total population) live below the poverty line therefore any form of financial benefit  pose as very tempting to residents. Worldcoin a cryptocurrency project  founded by Sam Altman aimed to address  issues of  digital identity and financial inclusion by providing a unique offering : biometric data in exchange for cryptocurrency.
@@ -21,7 +25,9 @@ In Kenya the issue etches a bit deeper because of the ignorance of data and its 
 Worldcoin’s strategy of collecting data in marginalized countries like Kenya where the larger percentage of the population have no idea of their rights , the value of their data and financial need is a persistent itch that needs to be scratched — seems extortive and exploitative .It seems no different from the race of diamonds , cobalt and uranium in Central Africa . It all got  the same architecture beneath it  — the extractive practices — it can be said that the  nature of “powerful” countries and organizations extracting precious  resources for a pittance yet to enrich themselves .
 
 **What are the risks of collection of the biometric data** 
+
 **Data Losses and Data Breaches**
+
 Worldcoin’s terms and conditions state the software used to create WorldID is an open source — it is free and open for anyone to use . This means that anyone can “Fork “ the open source repository and modify the data . The company explicitly stated that it s not responsible for the losses incurred i whole or in part by the Fork or any network disruption.
 
 Furthermore , the terms and conditions stated that there will be no refund or compensation in the vent where the digital tokens are stolen by “hackers or other malicious groups “ of if there is an intentional or unintentional bug on the open source software they use . 
@@ -41,6 +47,7 @@ The biometric data can be used to create deepfakes — especially using stolen f
 The biometric data can be combined with other information to build comprehensive profiles of individuals without consent to categorize , track and make assumptions about individuals .
 
 **Where did the Kenyan Data Protection Act shield Kenyans** 
+
 KDPA Section 19(2) 
 An application under sub-section (1) shall provide the following particulars—
 (a) a description of the personal data to be processed by the data
@@ -59,9 +66,12 @@ any measures to indemnify the data subject from unlawful use of data
 by the data processor or data controller; and
 (g) any other details as may be prescribed by the Data Commissioner.
 --
+
 This is where the I see Worldcoin project introduced a lot of legal ambiguity and became as slippery as an eel .(b)  a description of the purpose for which the personal data is to be processed; - The Worldcoin project stated that the purpose of collecting iris and facial scans was to provide "proof of humanity" and create a decentralized digital ID (World ID) to confirm a person is a unique, living human rather than an AI bot - This was the beginning of ambiguity.
 
-KDPA Section 32(4) In determining whether consent was freely given, account shall be taken of
+_KDPA Section 32(4)_ 
+
+In determining whether consent was freely given, account shall be taken of
 whether, among others, the performance of a contract, including the provision of
 a service, is conditional on consent to the processing of personal data that is not
 necessary for the performance of that contract.
