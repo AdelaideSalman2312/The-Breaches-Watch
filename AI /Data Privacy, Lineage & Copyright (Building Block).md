@@ -75,11 +75,15 @@ Section 25(b) of the act outlines data shall be  processed lawfully, fairly and 
 any data subject;
 
 **Ruling**
+
+
  The project lacked transparency. Most Kenyans were not given clear information about how their sensitive biometric data would be secured, stored, or institutionalized, directly violating the principle of accountability
 
 
 
 **#Failure to Conduct a Data Protection Impact Assessment**
+
+
 31.  Data protection impact assessment
 (1)  Where a processing operation is likely to result in high risk to the rights and
 freedoms of a data subject, by virtue of its nature, scope, context and purposes,
@@ -102,12 +106,18 @@ Under Section 31 of the KDPA, any entity processing data that poses high risks t
 The data subjects were denied the rights below : They could not access their data in custody of Worldcoin or object to the processing of their personal data .
 
 _KDPA Section 26_
+
+
 (b) to access their personal data in custody of data controller or data
 processor;
 (c) to object to the processing of all or part of their personal data
 
 **#Violation of the Duty to Notify**
+
+
 29.  Duty to notify
+
+30.  
 A data controller or data processor shall, before collecting personal data, in so
 far as practicable, inform the data subject of—
 (a) the rights of data subject specified under section 26; 
@@ -143,6 +153,8 @@ KDPA Part VI - Section 48 and 49
 
 
  The KDPA strictly regulates how personal and sensitive data can leave Kenya, ensuring the receiving nation or entity has equivalent legal safeguards.
+
+ 
  **The Ruling**
 
  
@@ -150,6 +162,8 @@ KDPA Part VI - Section 48 and 49
 
  
 **Misleading Registration Information**
+
+
 **Violation** 
 
  Under the broader regulations supporting the KDPA, entities processing data must accurately register as data controllers or processors.
@@ -158,4 +172,6 @@ KDPA Part VI - Section 48 and 49
 Section 18(3) of the KDPA: This section explicitly states that any person who "furnishes to the Data Commissioner any information which the person knows to be false or misleading, commits an offence".
 
 **The Ruling**:
+
+
 The High Court found that Worldcoin provided misleading information to authorities regarding its true activities and classification during registration.
