@@ -152,7 +152,11 @@ necessary for the performance of that contract.
 In August 2023, the Kenyan ODPC collaborated with the Communications Authority of Kenya (CA) and the Ministry of Interior to halted all Worldcoin activities in the country. The agencies warned citizens that Worldcoin's practice of offering cryptocurrency tokens in exchange for iris and facial scans bordered on financial inducement rather than freely given consent.
 
 **Cross-border data transfers**
+
+
 KDPA Part VI - Section 48 and 49 
+
+
 **Violation**
 
 
