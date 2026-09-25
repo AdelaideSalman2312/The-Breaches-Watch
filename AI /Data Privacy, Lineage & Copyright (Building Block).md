@@ -46,14 +46,15 @@ Frontier Artificial Intelligence models ( like Chat GPT , Deepseek and Claude) a
 The biometric data can be used to create deepfakes — especially using stolen facial scans ,voice recordings, or mapped markers are fed into generative AI models to synthesize hyper-realistic impersonations that bypass security.
 The biometric data can be combined with other information to build comprehensive profiles of individuals without consent to categorize , track and make assumptions about individuals .
 
-**Where did the Kenyan Data Protection Act shield Kenyans** 
+**Where did the Kenyan Data Protection Act shield Kenyans and what parts did Worldcoin Project Violate**
 
 KDPA Section 19(2) 
 An application under sub-section (1) shall provide the following particulars—
 (a) a description of the personal data to be processed by the data
 controller or data processor;
-(b) a description of the purpose for which the personal data is to be
-processed;
+This is where the I see Worldcoin project introduced a lot of legal ambiguity and became as slippery as an eel 
+KDPA Section 19(2)(b) a description of the purpose for which the personal data is to be
+processed;- - The Worldcoin project stated that the purpose of collecting iris and facial scans was to provide "proof of humanity" and create a decentralized digital ID (World ID) to confirm a person is a unique, living human rather than an AI bot - This was the beginning of ambiguity.
 13
 No. 24 of 2019
 Data Protection
@@ -65,15 +66,96 @@ mechanisms to ensure the protection of personal data;
 any measures to indemnify the data subject from unlawful use of data
 by the data processor or data controller; and
 (g) any other details as may be prescribed by the Data Commissioner.
---
 
-This is where the I see Worldcoin project introduced a lot of legal ambiguity and became as slippery as an eel .(b)  a description of the purpose for which the personal data is to be processed; - The Worldcoin project stated that the purpose of collecting iris and facial scans was to provide "proof of humanity" and create a decentralized digital ID (World ID) to confirm a person is a unique, living human rather than an AI bot - This was the beginning of ambiguity.
+**Breach of Data Protection Principles**
+
+**Violation**
+
+Section 25(b) of the act outlines data shall be  processed lawfully, fairly and in a transparent manner in relation to
+any data subject;
+
+**Ruling**
+ The project lacked transparency. Most Kenyans were not given clear information about how their sensitive biometric data would be secured, stored, or institutionalized, directly violating the principle of accountability
+
+
+
+**#Failure to Conduct a Data Protection Impact Assessment**
+31.  Data protection impact assessment
+(1)  Where a processing operation is likely to result in high risk to the rights and
+freedoms of a data subject, by virtue of its nature, scope, context and purposes,
+a data controller or data processor shall, prior to the processing, carry out a data
+protection impact assessment.
+
+
+**The Violation** : 
+
+Under Section 31 of the KDPA, any entity processing data that poses high risks to the rights and freedoms of individuals—specifically sensitive biometric data like iris and facial scans—must complete and submit a mandatory DPIA before starting operations.
+
+
+**The Ruling**:
+
+Under Section 31 of the KDPA, any entity processing data that poses high risks to the rights and freedoms of individuals—specifically sensitive biometric data like iris and facial scans—must complete and submit a mandatory DPIA before starting operations.
+
+**Violation of the rights of the data subject**
+
+
+The data subjects were denied the rights below : They could not access their data in custody of Worldcoin or object to the processing of their personal data .
+
+_KDPA Section 26_
+(b) to access their personal data in custody of data controller or data
+processor;
+(c) to object to the processing of all or part of their personal data
+
+**#Violation of the Duty to Notify**
+29.  Duty to notify
+A data controller or data processor shall, before collecting personal data, in so
+far as practicable, inform the data subject of—
+(a) the rights of data subject specified under section 26; 
+They violated the data subjects rights by denying them access to their own data in custody of the data controller in this case Worldcoin project.
+(b) the fact that personal data is being collected;
+(c) the purpose for which the personal data is being collected;
+Worldcoin never explicitly shared with the data subjects that their data is being used to build an open source platform that will have their biometric data - and use it to distinguish humans from Artificial Intelligence bots 
+(d) the third parties whose personal data has been or will be transferred
+to, including details of safeguards adopted;
+(e) the contacts of the data controller or data processor and on whether
+any other entity may receive the collected personal data;
+The fact that the data would have been used as first hand training data for an open source  platform where anybody can access - meant the data could be used by anybody and it could be modified for whatever purpose. 
+(f)
+a description of the technical and organizational security measures
+taken to ensure the integrity and confidentiality of the data; -Worldcoin made it very clear in their terms and conditions that "it is not liable for any forms of data losses or breaches " it shall therefore not offer any compensation to the participants in case of a breach in their open source platform . Furthermore , the participants can only resolve their issues with Worldcoin through arbitration and not litigation.
+
+
+
+**#Violation Of Consent**
 
 _KDPA Section 32(4)_ 
+
 
 In determining whether consent was freely given, account shall be taken of
 whether, among others, the performance of a contract, including the provision of
 a service, is conditional on consent to the processing of personal data that is not
 necessary for the performance of that contract.
-In August 2023, the Kenyan ODPC collaborated with the Communications Authority of Kenya (CA) and the Ministry of Interior to halt all Worldcoin activities in the country. The agencies warned citizens that Worldcoin's practice of offering cryptocurrency tokens in exchange for iris and facial scans bordered on financial inducement rather than freely given consent.
+In August 2023, the Kenyan ODPC collaborated with the Communications Authority of Kenya (CA) and the Ministry of Interior to halted all Worldcoin activities in the country. The agencies warned citizens that Worldcoin's practice of offering cryptocurrency tokens in exchange for iris and facial scans bordered on financial inducement rather than freely given consent.
 
+**Cross-border data transfers**
+KDPA Part VI - Section 48 and 49 
+**Violation**
+
+
+ The KDPA strictly regulates how personal and sensitive data can leave Kenya, ensuring the receiving nation or entity has equivalent legal safeguards.
+ **The Ruling**
+
+ 
+ Worldcoin transferred the collected biometric data outside Kenyan borders (storing it on Amazon Web Services servers in South Africa and other global locations) without obtaining proper authorization or valid clearance from the ODPC
+
+ 
+**Misleading Registration Information**
+**Violation** 
+
+ Under the broader regulations supporting the KDPA, entities processing data must accurately register as data controllers or processors.
+
+
+Section 18(3) of the KDPA: This section explicitly states that any person who "furnishes to the Data Commissioner any information which the person knows to be false or misleading, commits an offence".
+
+**The Ruling**:
+The High Court found that Worldcoin provided misleading information to authorities regarding its true activities and classification during registration.
