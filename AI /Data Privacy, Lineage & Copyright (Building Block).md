@@ -1,3 +1,7 @@
+**Data Privacy , Lineage & Copyright**
+
+
+
 **Overview  & Scope** :
 
 Focuses on the data set layer : data curation , GDPR  compliance , algorithmic unlearning ,
