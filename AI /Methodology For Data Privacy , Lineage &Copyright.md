@@ -23,6 +23,9 @@ as an architectural choice, not an incidental corporate detail, is exactly the m
 and a systems thinker would — worth a small diagram
 (even just a labeled flow, four or five boxes) rather than only prose.
 
+<img width="764" height="1206" alt="Wordcoinflowchart" src="https://github.com/user-attachments/assets/ab262cc9-6fb4-423c-8ce4-0beb6c63941a" />
+
+
 **Failure analysis**
 
 
