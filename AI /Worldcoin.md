@@ -1,6 +1,6 @@
 **CASE 1**
 
-**#Tools for Humanity (The Corporation behind World Coin ) - The Company that was scanning Kenyan People orbs for 7700ksh.**
+**#Tools for Humanity (The Corporation behind World Coin ) - The Company that was scanning Kenyan People orbs for 7000ksh.**
 
 Worldcoin collected iris scans from citizens in Kenya primarily during July and August 2023.This raised significant ethical concerns particularly in Kenya
 — a developing country , where  40 % of its citizens ( an average of twenty million of its total population) live below the poverty
@@ -63,14 +63,23 @@ The biometric data can be combined with other information to build comprehensive
 
 **The System Architecture and Data Pipeline**
 
+The Worldcoin’s data collection pipeline in Kenya as I have broken it down to the 5 steps system to be able to draw the kind of governance havoc it wrecked at each stage. I had previously tried to treat it as an undifferentiated mass dump of “ biometric data collection” which left my thoughts tangled — which is what led to this subsequent failure analysis tracing each statutory violation back to a specific architectural design decision rather than treating  the breach as one dump of undifferentiated act of negligence .
+
 **Capture** 
-Worldcoin set up registration centers in public spaces , shopping areas and locations like Nairobi , where agents guided people to using a chrome finished , ball like scanner known as the Orb.
-The participants looked directly into the Orb for about 10 seconds . The device scanned the patterns in their irises and face .
+The Orb device , a spherical chrome colored  hardware unit deployed by WorldCoin at registration sites placed in malls , various streets  across Nairobi  and other urban centers ; captured high - resolution images of  a participant’s iris and face .This stage is where the incentive structure did its work: a cryptocurrency payment of roughly 7,000 Kenyan shillings, pegged at approximately USD 50–55 depending on the exchange rate at time of payment and conversion , was offered in direct exchange for the scan. The High Court  later found this payment structure sufficient to invalidate consent under Section 32 of the KDPA — not because payment for data is inherently unlawful, but because the record showed the promise of payment functioned as the prompt rather than compensation for freely given participation — meaning most likely with out the incentive , the Kenyan citizens would have hardly stared at the orb for a second, particularly given the economic context in which it was offered.
+
 
 **Transformation**
+
+
+This was getting me confused  so let me  clarify . The raw capture is not what gets stored or transmitted onward . It is processed through an iris - recognition algorithm the industry-standard approach originating from John Daugman’s wavelet-based encoding method - into a compact binary representation known as an IrisCode , alongside a derived unique identity hash used to generate the World ID . 
+
+**The Process**
+
+
 The scan converted the eye image into a unique number code(an IrisCode) to prove the person was a unique , real human being , issuing them a digital World ID.
-Worldcoin had (IRIS) Iris Recognition Inference System represents the step-by-step process that transforms an iris image into an iris code , the numeric representation of one's iris texture . It is the core engine that validates a person's uniqueness 
-an Orb and allows the secure verification of their World Id. The Orb also contains a suite of fraud detection models that enables humanness verification
+Worldcoin had (IRIS) Iris Recognition Inference System represents the step-by-step process that transforms an iris image into an iris code , the numeric representation of one's iris texture . It is the core engine that validates a person's uniqueness .
+The Orb allows the secure verification of their World Id. The Orb also contains a suite of fraud detection models that enables humanness verification
 which is not included in IRIS. The IRIS pipeline can generally be broken down into the following steps:
 
 Segmentation(to segment iris texture using our open-source AI model)
@@ -82,6 +91,45 @@ Feature extraction (to generate IrisCode using Gabor filters)
 Iris Code matching(to generate Hamming distance between IrisCodes)
 
 Each step in the process is vital for accurately validating the humanness and uniqueness of every Orb-verified World ID holder.
+
+This is the stage at which Worldcoin’s  own public defense rested : company representatives , including Alex Blania , repeatedly characterized the IrisCode as a privacy-protective abstraction ,something closer to a one way hash than to the raw biometric itself, and argued that this transformation meant no one — "not even Tools for Humanity" — could link the stored code back to an identifiable person.
+
+That defense does not hold up against the published security literature on iris template protection, because this  is the architectural claim the company's entire privacy case depended on. Unlike a cryptographic hash, which is designed so that recovering the input from the output is computationally infeasible, an IrisCode is designed primarily for matching accuracy — which means it necessarily retains more of the original structure than true one-way encryption would allow. Researchers at West Virginia University's Center for Identification Technology Research, working with Universidad Autónoma de Madrid, demonstrated that synthetic iris images could be reconstructed directly from iris-code data, convincingly enough to pass as a match against the original image in a live recognition system. Separately, security evaluations of biometric template-protection schemes specifically engineered to be irreversible — so-called "cancelable biometrics" — found that 75 to 95 percent of the original iris-code bits could be recovered through targeted attacks, and that two supposedly unlinkable protected templates could be correlated back to the same individual with complete accuracy under tested conditions. The practical implication for this case: storing the derived code rather than the raw image reduced exposure, but did not eliminate it, and did not meet the standard the company's own public reassurances implied. A compromised IrisCode is not equivalent to a compromised password — it cannot be reissued, and the research above indicates it carries more residue in  identifiability than a true anonymization technique would.
+
+## **IDENTITY.**
+
+
+The transformed data feeds into the World ID system, generating a unique global hash intended to serve as cryptographic proof of "personhood" — distinguishing a human registrant from an AI agent or bot without requiring a persistent, named identity. This layer is the architectural core of Worldcoin's stated mission, and it is also where the purpose-limitation problem in the KDPA analysis originates: Kenyan data subjects were told, with varying degrees of clarity across different disclosures, that their data would serve this proof-of-humanity function, but were not meaningfully informed of the downstream systems — the mobile wallet, the token economy, the broader Worldcoin app ecosystem — that the same identity layer would also support.
+
+**CUSTODY**
+Custody this answers the question — Who is responsible for the data ?
+
+This was a question the design incorporated by Worldcoin cleverly avoided from four companies in four different locations  and a well curated terms of agreement that aided them to avoid the thin edge of the wedge of legal bureaucractic marathons.
+
+**The Architecture behind Worldcoin Foundation .**
+
+ Tools for Humanity (TFH)a Delaware US corporation headquartered at San Francisco , California a wholly owned subsidiary , Tools for Humanity GmbH based in Germany. On October 31st , 2022 the Worldcoin Foundation (”Foundation”) was established as the non-profit steward of the WorldCoin protocol , supporting and growing an ecosystem until it becomes self-sufficient . The foundation is an exempted limited guarantee foundation company , which is a type of non-profit , incorporated in Cayman Islands . It is a wholly-owned business company subsidiary in the British Virgin Islands called World Assets Limited. This structure is currently in use by protocol decentralized autonomous Organizations (DAOs).  The Foundation's own whitepaper frames its purpose as building "an inclusive identity and financial network" operated as a public utility, with governance intended to decentralize over time. That framing is worth holding up against the custody structure above: a network described as heading toward decentralized public governance was, at the time Kenyan biometric data was being collected under it, controlled through a four-entity offshore structure in which the two entities holding the deepest claim to the data had no registered presence in the country whose citizens supplied it.
+
+The High Court's own judgment in the court proceedings presided by Lady Justice Roselynn Aburili  , in the Judicial Review proceedings brought by Katiba Institute and the Law Society of Kenya ( LSK), named the parties directly: Tools for Humanity Corporation, incorporated in  California  the United States; Tools for Humanity GmbH, its German subsidiary; Worldcoin Foundation, incorporated in the Cayman Islands; World Assets Limited, incorporated in the British Virgin Islands; and Platinum De Plus Ltd, the local Kenyan agent. Critically, only the two Tools for Humanity entities were registered with the ODPC — and only as data controllers, not processors — while Worldcoin Foundation and World Assets Ltd, identified entities  as the principal beneficiaries of the collected data, had no registration in Kenya at all. This was not  a random accidental tapestry of organized complexity. A four-entity structure spanning three offshore jurisdictions, in which the two entities with the deepest claim on the data were also the two with no registered presence, meant no single regulator could compel a complete accounting from any one party.
+
+**TERMS OF AGREEMENT**
+This answers the question of liability. What is at stake ?
+
+WorldCoin’s terms and conditions state that the software used to create WorldID  is open-source and free for anyone to copy and use. This means that anyone can create a modified version of World ID, otherwise known as a “Fork.” The company stated that they are not responsible for any losses incurred which are caused in whole or in part by a Fork or other network disruption.
+
+In addition, terms and conditions stated that there will be no refund or compensation in the event of digital tokens being stolen by “hackers or other malicious groups”, or if there is an “intentional or unintentional bug” on the open source software they use.
+
+Agreeing to their terms meant that “You agree to resolve any disputes between you and Worldcoin through binding arbitration rather than in court.” the terms read in part, adding that the Worldcoin tokens accrued do not amount to an investment advice, nor can they be guaranteed to appreciate, hence the possibility to have zero value.
+
+In what would potentially be a wild-goose chase for users, the terms further specified that there was no guarantee that the platform would  even be launched worldwide, and did not even guarantee its operation after all, as it is an open source software, which ‘anyone can copy, paste and use’.
+
+https://citizen.digital/article/surprising-worldcoin-terms-and-conditions-kenyans-skipped-during-verification-n324827
+
+https://fichauchi.org/fichauchi-worldcoin/
+
+(originates directly from the **official Worldcoin Whitepaper** (originally published in July 2023 under the title ***A New Identity and Financial Network***)).
+
+
 
 
 
