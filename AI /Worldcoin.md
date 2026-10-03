@@ -163,6 +163,21 @@ Worldcoin conduct was unusually negligent  - no DPIA at all ,inconsistent public
 KDPA was exercised its capabilities as far as Worldcoin is concerned . Nevertheless bear in mind that nothing in the enforcement history required a novel legal theory: every finding maps to an existing, unambiguous statutory provision.
 This  should temper any claim that this case proves KDPA is well-calibrated for an  AI -era  kind of harms generally — it proves KDPA can catch obvious, undisguised non-compliance. Whether it can reach a more sophisticated actor is the open question this case is not well equipped to answer.
 
+# **Section 4:** Statutory Compliance Table
+
+
+| Provision | Requirement | Violation Found | Instrument |
+| :--- | :--- | :--- | :--- |
+| **Section 31** | DPIA before high-risk processing | No Data Protection Impact Assessment (DPIA) was conducted | 2025 Judgment (Aburili J), E119 of 2023, [2025] KEHC 5629 (KLR) |
+| **Section 25** | Lawful, fair, transparent processing | Custody opacity breached transparency principle | Same 2025 Judgment |
+| **Section 26** | Data subject access/objection rights | Rights unexercisable given custody structure | Same 2025 Judgment |
+| **Section 29** | Duty to notify before collection | Notice given for stated purpose only, not downstream uses/transfers | Same 2025 Judgment |
+| **Section 32 / Section 32(4)** | Consent must be free, specific, informed | Crypto-token inducement invalidated consent | 2023 ODPC administrative determination |
+| **Section 18(1)/(3)** | Accurate controller/processor registration | Misleading registration information | 2023 ODPC administrative determination |
+| **Section 19(2)** | Basis for processing disclosure | Misrepresented legal basis | 2023 interlocutory injunction (Ngaah J) |
+| **Section 37(3)** | Transfer safeguards | Inadequate safeguards disclosed to court | 2023 interlocutory injunction (Ngaah J) |
+| **Section 48–49** | Cross-border transfer conditions | Transfer without proof of adequate safeguards | 2025 Judgment |
+| **Art. 28, 31 Constitution** | Dignity, right to privacy | Underlying constitutional violation | 2025 Judgment |
  
 
 
