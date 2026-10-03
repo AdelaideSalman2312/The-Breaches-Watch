@@ -1,6 +1,6 @@
-**CASE 1**
-
 **#Tools for Humanity (The Corporation behind World Coin ) - The Company that was scanning Kenyan People orbs for 7000ksh.**
+
+**SECTION 1: EXECUTIVE SUMMARY**
 
 Worldcoin collected iris scans from citizens in Kenya primarily during July and August 2023.This raised significant ethical concerns particularly in Kenya
 — a developing country , where  40 % of its citizens ( an average of twenty million of its total population) live below the poverty
@@ -61,11 +61,13 @@ Frontier Artificial Intelligence models ( like Chat GPT , Deepseek and Claude) a
 The biometric data can be used to create deepfakes — especially using stolen facial scans ,voice recordings, or mapped markers are fed into generative AI models to synthesize hyper-realistic impersonations that bypass security.
 The biometric data can be combined with other information to build comprehensive profiles of individuals without consent to categorize , track and make assumptions about individuals .
 
-**The System Architecture and Data Pipeline**
+**Section 2 :The System Architecture and Data Pipeline**
 
 The Worldcoin’s data collection pipeline in Kenya as I have broken it down to the 5 steps system to be able to draw the kind of governance havoc it wrecked at each stage. I had previously tried to treat it as an undifferentiated mass dump of “ biometric data collection” which left my thoughts tangled — which is what led to this subsequent failure analysis tracing each statutory violation back to a specific architectural design decision rather than treating  the breach as one dump of undifferentiated act of negligence .
 
 **Capture** 
+
+
 The Orb device , a spherical chrome colored  hardware unit deployed by WorldCoin at registration sites placed in malls , various streets  across Nairobi  and other urban centers ; captured high - resolution images of  a participant’s iris and face .This stage is where the incentive structure did its work: a cryptocurrency payment of roughly 7,000 Kenyan shillings, pegged at approximately USD 50–55 depending on the exchange rate at time of payment and conversion , was offered in direct exchange for the scan. The High Court  later found this payment structure sufficient to invalidate consent under Section 32 of the KDPA — not because payment for data is inherently unlawful, but because the record showed the promise of payment functioned as the prompt rather than compensation for freely given participation — meaning most likely with out the incentive , the Kenyan citizens would have hardly stared at the orb for a second, particularly given the economic context in which it was offered.
 
 
