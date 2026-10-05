@@ -149,6 +149,15 @@ The failure stems upstream from a single statutory violation :a consumer-grade b
 
 The failures compounded rather than sitting latitudinal to each other - they followed a series of meticulously designed break downs . The root failure was dismissing the Data Protection Impact Assessment (DPIA) under Section 31 - this the precondition the entire regime is built around . A DPIA is meant to surface exactly the risk (incentive-based consent, cross-border transfer , registration gaps ) that later materialized . This emanated mainly because this precondition was skipped , every downstream safeguard had nothing to pacify  it . Consent followed the collapse under Section 32 because inducement wasn't flagged in advance . The duty to notify  under Section 29 was satisfied superficially , with latent facts  since data data subjects were told about the "proof of humanity" purpose but not about the broader token-economy use or the specific jurisdictions their data would transit . The data subject rights under section 26 were unexercisable in practice because the custody structure meant no single entity could straightforwardly access their data or demand a withdrawal , this obsurity was scrupulously tailored in the Terms of Agreement. The principle of transparency under Section 25 was equally breached by similar custody opacity — a data subject could not meaningfully assess “lawful , fair and transparent” processing when the entity holding their data changes description depending on which hearing is being asked. The top layer that exposed  the underlying failures : unregistered controller/processor status for the two entities with the deepest claim to the data (Worldcoin Foundation, World Assets Ltd), and a cross-border transfer under Sections 48–49 to a location the company itself could not consistently state.
 
+**Why Does This Matter Beyond Kenya :EU-AI ACT**
+
+
+Under the EU-AI act , a system functionally identical to Worlscoin's orb would by default fall under Annex III , Category 1 as a high risk biometric identification system . This kind of classification would have triggered chapter III's full compliance package as a precondition for lawful deployment . A compliance package that would have entailed : a conformity assessment , a documented risk management system , data governance obligations and a mandatory registration in the European Union's high risk systems database , before a single individual actually stares at the orb. 
+This is the closest equivalent to Section 31 of the Kenyan Data Protection Act named Data Protection Impact Assessment (DPIA) requirement , it imposes a comparable substantive obligation but the EU -AI act enforces it reactively . The Worldcoin's two year drag across the Kenyan litigation chain is a amongst the records of regulators catching a violation after deployed with out prior clearance.
+
+
+
+
 
 #### **REGULATORY IMPLICATION**
 
