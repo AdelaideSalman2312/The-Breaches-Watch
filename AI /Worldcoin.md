@@ -190,6 +190,16 @@ This  should temper any claim that this case proves KDPA is well-calibrated for 
 | **Section 48–49** | Cross-border transfer conditions | Transfer without proof of adequate safeguards | 2025 Judgment |
 | **Art. 28, 31 Constitution** | Dignity, right to privacy | Underlying constitutional violation | 2025 Judgment |
  
+**Section 5 : Evidentiary Gaps**
+
+Three items I could not make a clean conclusion about and are flagged here for being unwholly resolved . First, the claim that Worldcoin's open-source software infrastructure made Kenyan biometric data scrapable for AI training or deepfake generation is plausible but unverified — the open-source status applies to the World ID protocol code, and no primary source in this record confirms that the actual biometric templates themselves were exposed through that channel; this claim should not be treated as established until a technical source confirms it directly.
+Second, the Worldcoin Foundation's incorporation details (Delaware registration of Tools for Humanity Corp, the 31 October 2022 Cayman Islands establishment date) are sourced to the project's own whitepaper rather than an independent corporate registry filing, and carry the lower evidentiary weight that self-reported detail implies.
+Third, secondary press accounts of the 2025 judgment are not fully consistent with each other — one outlet cites breach of "Sections 25, 31, and 38," while ICJ Kenya's own statement, corroborated independently, cites "Sections 25, 26, 29, 30, and 31." This note follows ICJ Kenya's account as the better-attested version, but the underlying judgment text itself (available via Kenya Law) remains the authoritative source and should be the final check before publication.
+
+
+**Section 6: Why This Matters Beyond Kenya**
+
+The Worldcoin case demonstrates something more useful, than a general claim that Kenya's data protection regime is either strong or weak relative to global peers. What it actually shows is that KDPA, applied patiently across three enforcement instruments over two years, can compel a remedy — court-supervised, cross-border deletion of derived biometric data — 
 
 
 **Where did the Kenyan Data Protection Act shield Kenyans and what parts did Worldcoin Project Violate**
