@@ -1,7 +1,7 @@
 Date of Incident - April 19 , 2026
 Tags-[supply chain attack, -OAuth permissions escalations ]
 
-**Summary**
+# Summary
 
 
 In April 2026 , Vercel suffered a security incident originating from a supply chain attack via the third-party AI tool Context.ai .
