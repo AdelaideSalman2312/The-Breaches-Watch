@@ -1,6 +1,7 @@
-Title : Manchester Airports Group cyber breach 
+ # Manchester Airports Group cyber breach 
 Date of the Incident: Tuesday, August 25 , 2026 - September 2,2026
 Tag : [-ransomware ,-transport -airways ,-UK ,-GDPR,-KDPA ]
+
 #Summary
 Manchester Airports Group(MAG) confirmed on Thursday , August 27 , 2026 , that a cyber 
 attack by an "unauthorised third party " exposed customer data tied to Manchester Airport 
@@ -12,8 +13,11 @@ its dark web leak site after MAG refused to pay the ransom it had demanded, tell
 BleepingComputer it had taken approximately 86 GB of compressed data.
 
 #Technical failure
+
 #Detection and Dwell Time
+
 The incident is detected in August 25, 2026 and reported on August 27, 2026.
+
 #Response
 MAG immediately contained the risk to secure its digital perimeter and stop further unauthorized
 access(Containment). They engaged specialist external advisors to investigate the forensics of the
@@ -21,9 +25,13 @@ breach and fortify their defenses (System Isolation). MAG confirmed that passeng
 security, and physical airport operations were completely unaffected. The incident was purely restricted
 to data systems and did not cause flight or terminal disruption( Operational Continuity). The group
 notified and began cooperating with relevant data protection and cybercrime law enforcement authorities(Authority Engagement).
+
+
 #Governance Failure
-If the data wass retained for its original purpose and it's was not stores after the period of its intended purpose.
+If the data was retained for its original purpose and it's was not stores after the period of its intended purpose.
+
 ***KDPA***
+
 What I would tell  MAG in my Caas Pitch from the case analysis , Governance is always late to 
 catch up  with technical but it is always first to fail , so in your case before the breach
 exposed the chips in your collection of your data - you collected more data than necessary
@@ -33,6 +41,7 @@ and why it is available many days later , The consent of the data collection  ar
 , did the data subjects have the consent to  withdraw and the access to implement the withdrawal .
 What you did so right was you aligned to section 43 that requests informing the ODPC and the
 customers whose data might have been affected .
+
 ***GDPR***
 Against the GDPR , what is commendable is the  swiftness adhering to Art 33(1) In the case 
 of a personal data breach, the controller shall without undue delay and, where feasible, not
@@ -46,7 +55,9 @@ rests with the controller — this is not something a data subject or regulator 
 Until MAG produces that evidence, Article 7 compliance cannot be assumed, and the multi-year 
 retention of that same data (Article 5(1)(c), 5(1)(e)) suggests the original purpose limitation 
 was not being actively enforced regardless of how consent was initially framed.
+
 #Outcome
+
 Compromised Customer Information: An unauthorized third party obtained personal data from car park,
 lounge, and Fast Track bookings, as well as in-airport Wi-Fi sign-ups. The stolen data included email
 addresses, phone numbers, vehicle registrations, and postcodes across Manchester, Stansted, and East
@@ -59,7 +70,9 @@ their systems. Security Controversy:Cyber security experts, revealed that the br
 API keys being left exposed in client-side JavaScript for four years, allowing access totheir database
 via the marketing platform Iterable. MAG disputed this "no hacking required" claim, maintaining that they
 were victims of a sophisticated cyberattack. 
+
 #Pattern tags 
+
  Tags -[-Ransowware , vulnerable API keys ]
 
 
