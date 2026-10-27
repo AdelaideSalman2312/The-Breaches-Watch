@@ -108,14 +108,29 @@ through unsealed court filings, in which it was described internally as an "effo
 scan all the books in the world". In the same 2025 litigation, Judge William Alsup ruled that 
 Anthropic's use of legally purchased books for digitization and model training constituted fair use, in contrast to its prior use of pirated copies.
 Project Panama aims to develop a dataset of books for training Anthropic's large language models.
-
-**Operation**
+# **Operation**
 
 Anthropic began by obtaining millions of previously digitized works through digital piracy. According to court documents, Anthropic used Books3, LibGen, 
 and Pirate Library Mirror for this purpose, and may have acquired up to 7 million books in this way.
-Project Panama was started in early 2024, aiming to "destructively scan all the books in the world". Anthropic purchased millions of used books from
-online retailers such as Better World Books, World of Books, and Zoom Books. The company then sliced off their spines and scanned their pages in order
-to train its AI chatbot Claude. This process involved the use of hydraulic cutters for spine removal and high-speed document scanners.
-The dataset was then kept private and used only for training models.[1] According to the Project Panama planning document,
-Anthropic did not "want it to be known that [it was] working on this"
+Project Panama was started in early 2024, aiming to "destructively scan all the books in the world".
+
+**Core details of the Operation**
+
+**The main idea behind Panama** 
+
+ Anthropic executives wanted high-quality training material to teach its Claude AI chatbot human-level writing style and reasoning. They explicitly sought to avoid training models on "low-quality internet speak."
+
+ **The Execution**
+ 
+Anthropic hired Tom Turvey—the former head of partnerships for Google Books—to spearhead the acquisition. The company spent tens of millions of dollars  purchasing  millions of used books from online retailers such as Better World Books, World of Books, and Zoom Books. 
+
+**The "Destructive Scan" Process**
+
+To handle the immense volume (estimated between 500,000 and 2 million books over a six-month period), Anthropic utilized automated facilities.
+The company then sliced off their spines and scanned their pages in order to train its AI chatbot Claude. This process involved the use of hydraulic cutters chopped off the bindings and book spines , allowing loose pages to be rapidly fed through high-speed imaging scanners before being discarded for paper recycling.
+The dataset was then kept private and used only for training models. According to the Project Panama planning document,
+Anthropic did not "want it to be known that it was  working on this" , but Unsealed court documents from a subsequent author class-action lawsuit (Bartz v. Anthropic) revealed the inner workings of the project, including an internal memo that explicitly defined its objective: "Project Panama is our effort to destructively scan all the books in the world".
+
+Sources 
+https://www.euronews.com/2026/08/05/project-panama-how-anthropic-secretly-destroyed-millions-of-books-to-train-its-ai
 
