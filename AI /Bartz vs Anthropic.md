@@ -28,14 +28,16 @@ would otherwise be paid to create and sell. Anthropic’s LLMs, which dilute the
 for Plaintiffs’ and the Class’s works, were created without paying writers a cent.
 nthropic’s immense success is a direct result of its copyright infringement. The
 quality of Claude, or any LLM, is a consequence of the quality of the data used to train it. The more
-high-quality, longform text on which an LLM is trained , the more adapt an LLM will be in generating lifelike, complex, and useful text responses to prompts. Without usurping the works of
+high-quality, longform text on which an LLM is trained , the more adapt an LLM will be in generating 
+lifelike, complex, and useful text responses to prompts. Without usurping the works of
 Plaintiffs and the members of the Class to train its LLMs to begin with, Anthropic would not have
 a commercial product with which to damage the market for authors’ works. Anthropic has enjoyed
 enormous financial gain from its exploitation of copyrighted material. Anthropic projects it will
 generate more than $850 million of revenue in 2024.
  After ten rounds of funding, Anthropic has
 raised $7.6 billion from tech giants like Amazon and Google. As  of December 2023, those investments
-valued the company in excess of $18 billion and is likely even higher today in 2026.. Anthropic’s commercial gain has come at the expense of creators and rightsholders,
+valued the company in excess of $18 billion and is likely even higher today in 2026.. Anthropic’s 
+commercial gain has come at the expense of creators and rightsholders,
 including Plaintiffs and members of the Class. Book readers typically purchase books. Anthropic
 did not even take that basic and insufficient step. Anthropic never sought—let alone paid for—a
 license to copy and exploit the protected expression contained in the copyrighted works fed into its
@@ -65,12 +67,15 @@ the human expression and ingenuity behind each one of those works.
 
 **What Fair use actually implies**
 
-A court ruling that "the training use was fair use" means that an AI company did not commit copyright infringement when it used copyrighted text, books, or data to train its artificial intelligence model.
+A court ruling that "the training use was fair use" means that an AI company did not commit copyright infringement when it used 
+copyrighted text, books, or data to train its artificial intelligence model.
 
 
 **What This Means in Practice**
 
-• **Transformative Learning**: Courts comparing AI training to human learning have found that feeding books or data into an AI model is transformative—meaning the AI analyzes patterns, styles, and facts to build a new tool rather than just making copies to sell the original works.
+• **Transformative Learning**: Courts comparing AI training to human learning have found that feeding books or data
+into an AI model is transformative—meaning the AI analyzes patterns, styles, and facts to build a new tool rather 
+than just making copies to sell the original works.
 
 • **No Permission or Payment Required**: Under the U.S. doctrine of fair use (outlined in Section 107 of the Copyright Act), a user or company can legally use copyrighted material without the creator's permission or paying a license fee if the use meets specific legal standards.
 • **Landmark Decisions**: This principle was reinforced in high-profile court cases like Bartz v. Anthropic and Kadrey v. Meta, where federal judges ruled that training large language models (LLMs) on copyrighted text qualifies as fair use.
@@ -80,7 +85,8 @@ A court ruling that "the training use was fair use" means that an AI company did
 •**Not a Blanket Shield for All Actions**: Fair use applies to the process of training the model on the data, not necessarily to everything an AI company does. For example, in the Anthropic case, the judge ruled that storing millions of pirated books in a central library database was not protected fair use and could still lead to liability
 
 # System Architecture
-
+Court documents showed Anthropic downloaded over 7 million books  from  pirate sites , in part to use as training data for its AI development . It also bought and scanned millions for the same purpose .
+In this landmark copyright lawsuit *Bartz vs Anthropic* ,U.S. District Judge William Alsup drew a sharp legal line between how an AI model is trained and how its training data is acquired. Initially , the lawsuit  attacked the entire practice of using copyrighted works to train AI  but in June 2025 the Judge split the baby . He ruled that Anthropic usage of legally acquired books for AI training was "quintessentially transformative" and protected as fair use—but simultaneously held that downloading and keeping pirated copies was not fair use, and strongly suggested that he would find such uses to be straight-up infringement. This split decision left Anthropic partially vindicated on the big question of AI training but still facing massive liability for downloading books from LibGen and similar sources. 
 
 
 <img width="1000" height="1490" alt="Acquisation pipeline" src="https://github.com/user-attachments/assets/eef3b650-4efc-4859-a7e4-48e3ec3c464a" />
