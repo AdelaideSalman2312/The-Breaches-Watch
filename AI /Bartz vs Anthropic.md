@@ -59,9 +59,36 @@ we believe has broad value for the AI community."
 destruction. It is not consistent with core human values or the public benefit to download hundreds
 of thousands of books from a known illegal source. Anthropic has attempted to steal the fire of
 Prometheus. It is no exaggeration to say that Anthropic’s model seeks to profit from strip-mining
-the human expression and ingenuity behind each one of those w
+the human expression and ingenuity behind each one of those works.
+
+
+
+**What Fair use actually implies**
+
+A court ruling that "the training use was fair use" means that an AI company did not commit copyright infringement when it used copyrighted text, books, or data to train its artificial intelligence model.
+
+
+**What This Means in Practice**
+
+• **Transformative Learning**: Courts comparing AI training to human learning have found that feeding books or data into an AI model is transformative—meaning the AI analyzes patterns, styles, and facts to build a new tool rather than just making copies to sell the original works.
+
+• **No Permission or Payment Required**: Under the U.S. doctrine of fair use (outlined in Section 107 of the Copyright Act), a user or company can legally use copyrighted material without the creator's permission or paying a license fee if the use meets specific legal standards.
+• **Landmark Decisions**: This principle was reinforced in high-profile court cases like Bartz v. Anthropic and Kadrey v. Meta, where federal judges ruled that training large language models (LLMs) on copyrighted text qualifies as fair use.
+
+**Important Limits and Caveats**
+
+•**Not a Blanket Shield for All Actions**: Fair use applies to the process of training the model on the data, not necessarily to everything an AI company does. For example, in the Anthropic case, the judge ruled that storing millions of pirated books in a central library database was not protected fair use and could still lead to liability
+
+# System Architecture
+
+
+
+<img width="1000" height="1490" alt="Acquisation pipeline" src="https://github.com/user-attachments/assets/eef3b650-4efc-4859-a7e4-48e3ec3c464a" />
+
 
 # Project Panama 
+
+<img width="1000" height="1490" alt="Panama" src="https://github.com/user-attachments/assets/0f1803ca-cf1e-40ad-80c1-5bbf26c822dd" />
 
 Incident date : Early 2024
 
