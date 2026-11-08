@@ -91,6 +91,10 @@ In this landmark copyright lawsuit *Bartz vs Anthropic* ,U.S. District Judge Wil
 
 <img width="1000" height="1490" alt="Acquisation pipeline" src="https://github.com/user-attachments/assets/eef3b650-4efc-4859-a7e4-48e3ec3c464a" />
 
+# Legal / Governance Failure 
+
+So far Bartz vs Anthropic is a copyright case - therefore no data governance framework was used to make the final or procedural judgements of the case.
+
 
 # Project Panama 
 
