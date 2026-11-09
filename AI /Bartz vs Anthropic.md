@@ -95,6 +95,23 @@ In this landmark copyright lawsuit *Bartz vs Anthropic* ,U.S. District Judge Wil
 
 So far Bartz vs Anthropic is a copyright case - therefore no data governance framework was used to make the final or procedural judgements of the case.
 
+**Decision Governance**
+**Lineage and Record-Keeping**
+Anthropic said it could not count all of its copying (pp. 8–9), and the order notes that even estimating the training copies would be impractical (p. 6). A spreadsheet showing the composition of data mixes was produced and then withdrawn (p. 9). Anthropic carried the burden on summary judgment, and the court held the deficiencies against it (pp. 8–9). It could not decide the status of other library copies because the record was too thin (p. 31). The missing lineage records therefore became a legal exposure, not only an operational gap.
+Anthropic argues at one point that the books were being used for transformative purposes - this now brings the question of machine unlearning ?
+
+**Retention and Access**
+The planning described in the order was to keep everything with no compelling reason to delete any book (p. 5). Copies were retained after the decision not to train on them (p. 19). Hundreds of engineers could access the library, and the order describes no limits on access or use (pp. 22, 31).
+
+**Controls that Operated**
+Print originals were destroyed, so one copy replaced another with no redistribution, which the court treated as material (pp. 16–17).
+Input and output filtering meant no infringing outputs were alleged (pp. 7, 12).
+From 2024, purchasing replaced downloading (p. 4). The court noted Anthropic could have bought the books and later did (pp. 21, 29).
+
+
+
+
+
 
 # Project Panama 
 
